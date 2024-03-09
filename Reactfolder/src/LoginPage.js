@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import
 const LoginPage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -7,7 +7,6 @@ const LoginPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Check if email and password match
         if (username === 'Nithinpaidi' && password === 'password') {
             setLoggedIn(true);
         }
