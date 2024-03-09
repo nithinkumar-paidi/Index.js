@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 
 const LoginPage = () => {
-    const [email, setEmail] = useState('');
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [loggedIn, setLoggedIn] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         // Check if email and password match
-        if (email === 'example@example.com' && password === 'password') {
+        if (username === 'Nithinpaidi' && password === 'password') {
             setLoggedIn(true);
         }
-        
     };
 
     return (
@@ -21,13 +20,14 @@ const LoginPage = () => {
                     <h2>Login Successful!</h2>
                 </div>
             ) : (
-                <form onSubmit={handleSubmit}>
+                <section style={{ color: 'pink' , textAlign:'center', width:'10vh' }}>
+                <form onSubmit={handleSubmit} >
                     <label>
                         Email:
                         <input
-                            type="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            type="text"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
                         />
                     </label>
                     <br />
@@ -42,6 +42,7 @@ const LoginPage = () => {
                     <br />
                     <button type="submit">Login</button>
                 </form>
+                </section>
             )}
         </div>
     );

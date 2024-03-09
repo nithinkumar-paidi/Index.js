@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Clickevent from './Clickevent';
+// import Clickevent from './Clickevent';
 //import LoginPage from './LoginPage';
 // import App from './App';
 //import App1 from './App1';
- //import App2 from './App2';
-import App4 from './App4';
+// import App4 from './App4';
+import App2 from './App2';
 //import Statehook from './Propscontainer/Statehook';
 // import reportWebVitals from './reportWebVitals';
 
@@ -16,7 +16,7 @@ root.render(
     {/* <Statehook/> */}
     {/* <LoginPage/> */}
     {/* <Clickevent/> */}
-    <App4/>
+    <App2/>
   </React.StrictMode>
 );
 

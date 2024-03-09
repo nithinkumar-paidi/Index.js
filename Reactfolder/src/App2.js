@@ -1,11 +1,14 @@
 import React from 'react'
-import Usememo from './Usememo'
+// import Usememo from './Usememo'
+import LoginPage from './LoginPage'
 
 function App2(props) {
   return (
     <div style={({color:'red'})}>
        {/* <h3> Hello {props.name} what is your{props.age}</h3> */}
-<Usememo/>
+{/* <Usememo/> */}
+<LoginPage/>
+
     </div>
   )
 }
