@@ -1,8 +1,8 @@
 import React from 'react';
 // import Firstprops from './First props';
 //import Statemang from './Statemang';
-//import Clickevent from './Clickevent';
-import login from './login';
+import Clickevent from './Clickevent';
+// import login from './login';
 // const MyCar = {
 //   model:"Suzuki",
 //   year: 2020,
@@ -15,8 +15,8 @@ function App1() {
     <div>
       {/* <Secoundprops xyz={MyCar} /> */}
       {/* <Statemang/> */}
-      {/* <Clickevent/> */}
-      <login />
+      <Clickevent/>
+      {/* <login /> */}
     </div>
   );
 }

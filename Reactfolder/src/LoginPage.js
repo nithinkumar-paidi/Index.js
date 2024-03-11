@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import
+
 const LoginPage = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -19,7 +19,7 @@ const LoginPage = () => {
                     <h2>Login Successful!</h2>
                 </div>
             ) : (
-                <section style={{ color: 'pink' , textAlign:'center', width:'10vh' }}>
+                <section style={{ color: 'pink' , textAlign:'center', height:'100vh',justifyContent: 'center' }}>
                 <form onSubmit={handleSubmit} >
                     <label>
                         Email:

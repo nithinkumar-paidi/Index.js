@@ -12,7 +12,7 @@ function App2(props) {
     </div>
   )
 }
-App2.defaultProps = {name:"nithin", age:21}
+// App2.defaultProps = {name:"nithin", age:21}
 
 
 export default App2
